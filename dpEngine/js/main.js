@@ -184,7 +184,7 @@ $(function () {
             share your Video far & wide</h3>
         <a class="heading-links-a" href="https://res.cloudinary.com/dh2kauydz/video/upload/w_1080,h_1920/l_${
           images[0]
-        },so_0,eo_5/l_${images[1]},so_5,eo_10/l_${images[2]},so_10,eo_15/l_fullFrame_airwma,so_15/fl_attachment/BeconClip_c6kyba.mp4" download="Becon_Vid">Download my video</a>
+        },so_0,eo_5/l_${images[1]},so_5,eo_9/l_${images[2]},so_9,eo_13/fl_attachment/BeconClip_z5nanz.mp4" download="Becon_Vid">Download my video</a>
         `;
         // return `
         // <h3>Do the work of an Evangelist,
