@@ -132,11 +132,11 @@ $(function () {
       let images = getImageArray();
       if (index < 2) {
         $.ajax({
-          url: "https://api.cloudinary.com/v1_1/dh2kauydz/image/upload",
+          url: "https://api.cloudinary.com/v1_1/dzzw47btk/image/upload",
           type: "POST",
           data: {
             file: url,
-            upload_preset: "ymuf1qmk",
+            upload_preset: "udwlnsng",
           },
           success: function (result) {
             // console.log(result);
@@ -159,11 +159,11 @@ $(function () {
         return;
       }
       $.ajax({
-        url: "https://api.cloudinary.com/v1_1/dh2kauydz/image/upload",
+        url: "https://api.cloudinary.com/v1_1/dzzw47btk/image/upload",
         type: "POST",
         data: {
           file: url,
-          upload_preset: "ymuf1qmk",
+          upload_preset: "udwlnsng",
         },
         success: function (result) {
           images[index] = result.public_id;
@@ -182,14 +182,14 @@ $(function () {
         return `
         <h3>Do the work of an Evangelist,
             share your Video far & wide</h3>
-        <a class="heading-links-a" href="https://res.cloudinary.com/dh2kauydz/video/upload/w_1080,h_1920/l_${
+        <a class="heading-links-a" href="https://res.cloudinary.com/dzzw47btk/video/upload/w_1080,h_1920/l_${
           images[0]
-        },so_0,eo_5/l_${images[1]},so_5,eo_9/l_${images[2]},so_9,eo_13/fl_attachment/BeconClip_z5nanz.mp4" download="Becon_Vid">Download my video</a>
+        },so_0,eo_5/l_${images[1]},so_5,eo_9/l_${images[2]},so_9,eo_13/fl_attachment/BeconClip_xfqv3u.mp4" download="Becon_Vid">Download my video</a>
         `;
         // return `
         // <h3>Do the work of an Evangelist,
         //     share your Video far & wide</h3>
-        // <a class="heading-links-a" href="https://res.cloudinary.com/dh2kauydz/video/upload/w_1080,h_1080/l_${
+        // <a class="heading-links-a" href="https://res.cloudinary.com/dzzw47btk/video/upload/w_1080,h_1080/l_${
         //   images[0]
         // },so_0,eo_5/l_${images[1]},so_5,eo_10/l_${images[2]},so_10,eo_15/l_Main_Flyer_jt8grg,so_15/fl_attachment/BeconClip_c6kyba.mp4" download="Becon_Vid_${text1.replace(/\./g, "")}">Download my video</a>
         // `;
